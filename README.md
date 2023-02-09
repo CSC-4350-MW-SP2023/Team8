@@ -1,3 +1,5 @@
 # Team 8
 
-Team Members: 
+Project: Poster Judging
+
+Members: Hamza Farooq, Jarmarius Erves, McLain Barret, Vivian Do, Justin Blair 
