@@ -6,6 +6,7 @@ body {
     background-size: cover;
 }
 
+
 h1 {
 	text-align: center;
 }
@@ -22,7 +23,7 @@ input {
 }
 
 button {
-	background-color: #ff9966;
+	background-color: #0f52ba;
 	color: white;
 	padding: 10px;
 	border: 2px solid #ffffff;
@@ -46,9 +47,24 @@ button {
 	padding: 20px;
 }
 
-.logout {
-	/* idk man still working on it  */
+.scoring {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+legend {
+	background-color: white;
+	border: 2px outset gray;
+	padding: 0.2em;
+}
+
+.pointVal {
+	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .projectiontext{
 	text-align: center;
 	font-size: 190px;

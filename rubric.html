@@ -10,6 +10,41 @@
 
 <!-- main code -->
 <body>
+	<!-- timer logic goes here -->
+	<!-- form for scoring posters -->
+	<form class="scoring">
+		<div>
+			<fieldset>
+				<!-- student being judged -->
+				<legend>Student ID</legend>
+				<!-- sample categories w/ point values -->
+				Creativity: 
+				<br>
+				<label><input class="pointVal" type="radio" name="points1" value="one">1</label>
+				<label><input class="pointVal" type="radio" name="points1" value="two">2</label>
+				<label><input class="pointVal" type="radio" name="points1" value="three">3</label>
+				<br>
+
+				Category 2: 
+				<br>
+				<label><input class="pointVal" type="radio" name="points2" value="one">1</label>
+				<label><input class="pointVal" type="radio" name="points2" value="two">2</label>
+				<label><input class="pointVal" type="radio" name="points2" value="three">3</label>
+				<br>
+
+				Category 3: 
+				<br>
+				<label><input class="pointVal" type="radio" name="points3" value="one">1</label>
+				<label><input class="pointVal" type="radio" name="points3" value="two">2</label>
+				<label><input class="pointVal" type="radio" name="points3" value="three">3</label>
+				<br>
+
+				<!-- button to submit form -->
+				<button formaction="./rubric.html">Submit!</button>
+			</fieldset>
+		</div>
+	</form>
+	
 	<form class="logout">
 		<button formaction="./login.html">Logout</button>
 	</form>
