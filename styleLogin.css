@@ -10,6 +10,13 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+	background-color: white;
+	color: blue;
+	font-size:65px;
+}
+
 input {
 	width: 100%;
 }
@@ -21,6 +28,13 @@ button {
 	border: 2px solid #ffffff;
 	border-radius: 5px;
 	cursor: pointer;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border: 20px dashed blue; 
 }
 
 .login {
@@ -34,4 +48,10 @@ button {
 
 .logout {
 	/* idk man still working on it  */
+}
+.projectiontext{
+	text-align: center;
+	font-size: 190px;
+	color:black
+	
 }
