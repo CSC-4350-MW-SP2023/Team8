@@ -1,0 +1,105 @@
+/* styles for all pages */
+body {
+	background: url(paintBackground.jpg)no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	background-color: #0f52ba;
+	color: #ffffff;
+	padding: 10px;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+/* styles for login */
+input {
+	width: 100%;
+}
+
+.login {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	border: 3px solid #000000;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+
+/* style for rubric */
+legend {
+	background-color: #ffffff;
+	border: 2px outset gray;
+	padding: 0.2em;
+}
+
+.scoring {
+	width: 50%;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tempTimer {
+	text-align: right;
+}
+
+.pointVal {
+	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* styles for scores */
+table {
+	background-color: #ffffff;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+th, td {
+	text-align: center;
+	padding: 16px;
+}
+
+
+/* styles for winnerProjection */
+h3 {
+	text-align: center;
+	background-color: white;
+	color: blue;
+	font-size:65px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border: 20px dashed blue; 
+}
+
+.projectiontext{
+	text-align: center;
+	font-size: 190px;
+	color:black
+	
+}
+
+
