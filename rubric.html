@@ -5,18 +5,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Rubric | Team 8</title>
-	<link rel="stylesheet" type="text/css" href="styleLogin.css">
+	<link rel="stylesheet" type="text/css" href="styling.css">
 </head>
 
 <!-- main code -->
 <body>
+	<h1>Scoring Rubric</h1>
 	<!-- timer logic goes here -->
+	<!-- currently putting a temporary solution until i can figure out how to make the timer show -->
+	<p class="tempTimer">Time Remaining: 1:59</p>
+
 	<!-- form for scoring posters -->
 	<form class="scoring">
 		<div>
 			<fieldset>
 				<!-- student being judged -->
 				<legend>Student ID</legend>
+
 				<!-- sample categories w/ point values -->
 				Creativity: 
 				<br>
@@ -44,9 +49,11 @@
 			</fieldset>
 		</div>
 	</form>
-	
+
+	<!-- button to logout, end session, & redirect back to main page -->
 	<form class="logout">
 		<button formaction="./login.html">Logout</button>
 	</form>
+
 </body>
 </html>
